@@ -1,0 +1,26 @@
+#windows
+
+1.	distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
+	Change the "distributionUri" feild, use local Url to intead.
+	E.g:
+		distributionUrl=file:///D:/Android/DownloadedGradle/gradle-4.1-all.zip
+	
+2.	Make sure local file include the above gradle path.
+	You can download from "Gradle Distributions"
+	Url: http://services.gradle.org/distributions/
+	
+	Note:
+		Must download gradle-*-all.zip, never unzip them, just keep name "gradle-*-,zip",
+		Otherwise, distributionUri cannot be recognized.
+
+3.	Setting you project or AS global Settings
+	
+	File>Build, Execution, Deployment>Gradle>Project-level settings
+	Check "Use default gradle wrapper(recommented)"
+	
+	Note:
+		You can check "Offline work", after you have synced your project gradle successfully for once.
+		Then, the project will use you configured "Service directory path" cached gradle, dependencies, and so on (all of the download lib, plugin for you project building).
+		
+		E.g:	c:/Users/<your pc name>/.gradle/wrapper/dists/gradle....
+	
