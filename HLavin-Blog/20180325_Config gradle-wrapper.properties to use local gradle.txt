@@ -1,7 +1,7 @@
 #windows
 
 1.	distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
-	Change the "distributionUri" feild, use local Url to intead.
+	Change the "distributionUri" field, use local Url to intead.
 	E.g:
 		distributionUrl=file:///D:/Android/DownloadedGradle/gradle-4.1-all.zip
 	
@@ -10,10 +10,10 @@
 	Url: http://services.gradle.org/distributions/
 	
 	Note:
-		Must download gradle-*-all.zip, never unzip them, just keep name "gradle-*-,zip",
+		Must download gradle-*-all.zip, don't unzip them, just keep name "gradle-*-,zip",
 		Otherwise, distributionUri cannot be recognized.
 
-3.	Setting you project or AS global Settings
+3.	Setting your project or AS global Settings
 	
 	File>Build, Execution, Deployment>Gradle>Project-level settings
 	Check "Use default gradle wrapper(recommented)"
