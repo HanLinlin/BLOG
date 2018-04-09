@@ -1,0 +1,10 @@
+
+
+《Java虚拟机原理图解》
+	https://blog.csdn.net/column/details/jvm-principle.html
+	
+Java虚拟机工作原理
+	https://www.cnblogs.com/zhanglei93/p/6590609.html
+	
+Java 详解 JVM 工作原理和流程
+	http://www.cnblogs.com/lishun1005/p/6019678.html
